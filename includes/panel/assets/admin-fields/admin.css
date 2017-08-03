@@ -1,0 +1,107 @@
+.pluton-media-live-preview { clear: both; margin-top: 10px; max-width: 300px; }
+.pluton-media-live-preview img { max-width: 100%; }
+
+/* Extensions page */
+a:focus, .wp-core-ui .button-link:focus,
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus,
+.wp-core-ui .button:focus {
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.wp-core-ui .button-link:focus,
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus,
+.wp-core-ui .button:focus {
+	border-color: #999;
+}
+
+.pluton-admin-notice {
+	border-color: #3ba1da !important;
+	color: #555;
+}
+
+.pluton-admin-notice .alignleft {
+	font-size: 15px;
+    line-height: 38px;
+}
+
+.pluton-admin-notice a.button-primary {
+	height: auto;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    background-color: #13aff0;
+    border: 0;
+    color: #fff;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    text-align: center;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pluton-admin-notice a.button-primary:hover {
+	background-color: #0b7cac;
+}
+
+.pluton-admin-notice a.button-secondary {opacity: 0.7}
+.pluton-admin-notice a.button-secondary:hover {opacity: 0.9}
+.pluton-admin-notice a {text-decoration: none;color: #3ba1da}
+.pluton-admin-notice a:hover {color: #44b0ec}
+
+.pluton-filter {
+	padding: 12px;
+	border-color: #ddd !important;
+	margin: 20px 0 0 0 !important;
+}
+
+#pluton-extensions-wrap a.plugin-image, 
+#pluton-extensions-wrap a.plugin-image img {
+    max-width: 100%;
+    width: 100%;
+	display: block;
+}
+
+#pluton-extensions-wrap .plugin-card-top {
+    min-height: 100px;
+}
+
+#pluton-extensions-wrap .plugin-card .name,
+#pluton-extensions-wrap .plugin-card .desc {
+	margin-left: 0;
+}
+
+#pluton-extensions-wrap .plugin-card .name h4 {
+    margin: 0 0 20px;
+}
+
+/* Responsive extensions page */
+@media only screen and (max-width: 1280px) {
+    .pluton-filter { text-align: center; }
+    .pluton-admin-notice .alignleft, .pluton-admin-notice .alignright { float: none; }
+    .pluton-admin-notice .alignleft { line-height: 1.5; }
+    .pluton-admin-notice a.button-primary { margin: 15px 0 5px; }
+}
+
+@media only screen and (max-width: 1080px) {
+    .plugin-card-top h4 { margin: 0 0 15px; text-align: center; }
+    .plugin-card-top .action-links { margin: 0; }
+    .plugin-card-top .action-links ul { margin: 0; text-align: center; }
+    .plugin-card-top .plugin-action-buttons li { margin-bottom: 15px; }
+    #pluton-extensions-wrap .plugin-card .desc { text-align: center; }
+}
+
+@media only screen and (max-width: 787px) {
+    .plugin-card-top .action-links { position: static; width: 100%; }
+    .plugin-card-top .action-links ul { float: none; }
+    .plugin-card-top .plugin-action-buttons li { display: inline-block; }
+    .plugin-card-top .plugin-action-buttons li .button { margin-right: 20px; }
+    #pluton-extensions-wrap .plugin-card .name, #pluton-extensions-wrap .plugin-card .desc { margin-right: 0; }
+}
+
+@media only screen and (max-width: 320px) {
+    .pluton-admin-notice a.button-primary { padding: 12px 18px; }
+}

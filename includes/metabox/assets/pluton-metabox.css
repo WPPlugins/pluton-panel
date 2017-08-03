@@ -1,0 +1,32 @@
+#pluton-metabox .wp-tab-panel { display: none; }
+#pluton-metabox .wp-tab-panel#pluton-mb-tab-1 { display: block; }
+
+#pluton-metabox .wp-tab-panel { max-height: none !important; }
+#pluton-metabox ul.wp-tab-bar { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+#pluton-metabox ul.wp-tab-bar { padding-top: 5px; }
+#pluton-metabox ul.wp-tab-bar:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; zoom: 1; }
+#pluton-metabox ul.wp-tab-bar li { padding: 5px 12px; font-size: 14px; }
+#pluton-metabox ul.wp-tab-bar li a:focus { box-shadow: none; }
+
+#pluton-metabox .inside .form-table tr { border-top: 1px solid #dfdfdf; }
+#pluton-metabox .inside .form-table tr:first-child { border: none; }
+#pluton-metabox .inside .form-table th { width: 240px; padding: 10px 30px 10px 0; }
+#pluton-metabox .inside .form-table td { padding: 10px 0; }
+
+#pluton-metabox .inside .form-table label { display: block; }
+#pluton-metabox .inside .form-table th label span { margin-right: 7px; }
+
+#pluton-metabox .pluton-mb-uploader { margin-left: 5px; }
+
+#pluton-metabox .inside .form-table th p.pluton-mb-description { font-size: 12px; font-weight: normal; margin: 0; padding: 0; padding-top: 4px; }
+
+#pluton-metabox .inside .form-table input[type="text"],
+#pluton-metabox .inside .form-table input[type="number"],
+#pluton-metabox .inside .form-table .pluton-mb-textarea-code { width: 40%; padding: 7px 15px; }
+#pluton-metabox .inside .form-table textarea { width: 100% }
+#pluton-metabox .inside .form-table select { display: block; min-width: 40%; height: auto; border: 1px solid #d9d9d9; color: #333333; font-size: 13px; outline: none; padding: 7px 15px; cursor: pointer; z-index: 5; }
+
+#pluton-metabox .pluton-mb-reset { margin-top: 7px; }
+#pluton-metabox .pluton-mb-reset .pluton-reset-btn { display: block; float: left; }
+#pluton-metabox .pluton-mb-reset .pluton-reset-checkbox { float: left; display: none; margin-left: 10px; padding-top: 5px; }
